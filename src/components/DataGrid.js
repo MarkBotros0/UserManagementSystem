@@ -6,7 +6,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
-import DeleteIcon from '@mui/icons-material/Delete';
+import DoDisturbAltIcon from '@mui/icons-material/DoDisturbAlt';
 import EditIcon from '@mui/icons-material/Edit';
 import HttpsIcon from '@mui/icons-material/Https';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -136,11 +136,12 @@ export default function DataTable({ data, toggleModalEditMode, deleteUsers, filt
                     <Box sx={{ display: "flex", alignItems: "center", marginTop: "10px", marginBottom: "10px", paddingLeft: "20px" }}>
                         <Typography variant='p' sx={{ marginRight: "10px" }}>{`${selectedRows.length} selected`}</Typography>
                         <Typography variant='p' sx={{ marginRight: "10px" }}>|</Typography>
+                        {/* hereajhsdjahbsdjashbdajsdha */}
                         <IconButton onClick={getRowDataByIndex} sx={{ borderRadius: "5px", color: "#51576d", bgcolor: "#e7e9ef", marginRight: "10px" }} variant="contained" color="secondary">
                             <EditIcon />
                         </IconButton>
                         <IconButton onClick={deleteDataOfUsers} sx={{ borderRadius: "5px", color: "#51576d", bgcolor: "#e7e9ef", marginRight: "10px" }} variant="contained" color="secondary">
-                            <DeleteIcon />
+                            <DoDisturbAltIcon />
                         </IconButton>
                         <IconButton sx={{ borderRadius: "5px", color: "#51576d", bgcolor: "#e7e9ef", marginRight: "10px" }} variant="contained" color="secondary">
                             <HttpsIcon />
