@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={
+        <Route path='/UserManagementSystem' element={
           <MyLayout>
             <MyHome />
           </MyLayout>

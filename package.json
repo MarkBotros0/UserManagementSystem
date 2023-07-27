@@ -1,8 +1,8 @@
 {
-  "name": "session19",
+  "name": "UserManagementSystem",
   "version": "0.1.0",
-  "private": true,
   "homepage": "http://MarkBotros0.github.io/UserManagementSystem",
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
